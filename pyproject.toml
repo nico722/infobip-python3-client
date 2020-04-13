@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "py3_infobip"
+version = '0.0.4'
+description = "A python3 client for the infobip service"
+authors = ["Nicolas Cardenas <nicolas.cardenas722@gmail.com>"]
+keywords = ['infobip', 'api-client']
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+repository = 'https://github.com/nico722/infobip-python3-client'
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.23.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+autopep8 = "^1.5.1"
+pytest = "^5.4.1"
+requests_mock = "^1.7.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
